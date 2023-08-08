@@ -1,0 +1,41 @@
+{
+  "name": "node-rest",
+  "version": "1.0.0",
+  "description": "node rest api",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 5000",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuldeepgit700/node-rest.git"
+  },
+  "author": "kuldeep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuldeepgit700/node-rest/issues"
+  },
+  "homepage": "https://github.com/kuldeepgit700/node-rest#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "express-validator": "^6.14.3",
+    "graphql": "^16.7.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.0",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.5.4",
+    "uuid": "^9.0.0",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nodemon": "^2.0.20",
+    "sinon": "^15.0.2"
+  }
+}
